@@ -1,0 +1,50 @@
+{
+  "name": "botnot",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "/dist/index.d.ts",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "jest --passWithNoTests",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "express",
+    "nextjs",
+    "middleware",
+    "bot",
+    "bot-detection",
+    "rate-limiter",
+    "security",
+    "user-agent"
+  ],
+  "author": "Vishal Kumar Sharma",
+  "license": "MIT",
+  "description": "An Express/Next.js compatible middleware to detect and block bots using User-Agent inspection, rate limiting, and configurable allow/deny lists.",
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.0.3",
+    "@types/supertest": "^6.0.3",
+    "jest": "^30.0.2",
+    "supertest": "^7.1.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/bot-detector-middleware"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/bot-detector-middleware/issues"
+  },
+  "homepage": "https://github.com/yourusername/bot-detector-middleware#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
