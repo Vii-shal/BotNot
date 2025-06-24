@@ -3,9 +3,8 @@
 **botnot** is a lightweight and pluggable Node.js module to detect and block bots using **User-Agent fingerprinting**, **rate limiting**, and flexible **allow/deny lists**.  
 It’s perfect for securing APIs, login pages, contact forms, and public routes in **Express**, **Next.js**, or even vanilla **Node.js** servers.
 
-[![npm](https://img.shields.io/npm/v/botnot?color=green)](https://www.npmjs.com/package/botnot)
-[![license](https://img.shields.io/npm/l/botnot)](LICENSE)
-[![issues](https://img.shields.io/github/issues/Vii-shal/botnot)](https://github.com/Vii-shal/botnot/issues)
+[![npm](https://img.shields.io/npm/v/botnot?color=blue)](https://www.npmjs.com/package/botnot)
+<!-- [![issues](https://img.shields.io/github/issues/Vii-shal/botnot)](https://github.com/Vii-shal/botnot/issues) -->
 [![NPM downloads](https://img.shields.io/npm/dm/limiter.svg)](https://www.npmjs.com/package/limiter)
 
 ---
