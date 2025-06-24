@@ -132,16 +132,6 @@ server.listen(3000, () => {
 
 ---
 
-## 🛠 Roadmap
-
-- [ ] Redis-based rate limiting for distributed deployments
-- [ ] Request fingerprinting (header behavior, IP analysis)
-- [ ] Bot scoring engine (UA + behavior)
-- [ ] CLI tool for log analysis
-- [ ] Admin dashboard or visual stats
-
----
-
 ## 📝 License
 
 MIT © [Vishal Kumar Sharma](https://github.com/Vii-shal)
