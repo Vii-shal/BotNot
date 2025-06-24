@@ -4,7 +4,6 @@
 It’s perfect for securing APIs, login pages, contact forms, and public routes in **Express**, **Next.js**, or even vanilla **Node.js** servers.
 
 [![npm](https://img.shields.io/npm/v/botnot?color=blue)](https://www.npmjs.com/package/botnot)
-<!-- [![issues](https://img.shields.io/github/issues/Vii-shal/botnot)](https://github.com/Vii-shal/botnot/issues) -->
 [![NPM downloads](https://img.shields.io/npm/dm/limiter.svg)](https://www.npmjs.com/package/limiter)
 
 ---
