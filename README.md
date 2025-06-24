@@ -6,7 +6,7 @@ It’s perfect for securing APIs, login pages, contact forms, and public routes 
 [![npm](https://img.shields.io/npm/v/botnot?color=blue)](https://www.npmjs.com/package/botnot)
 [![NPM downloads](https://img.shields.io/npm/dm/limiter.svg)](https://www.npmjs.com/package/limiter)
 
----
+<!-- --- -->
 
 ## ✨ Features
 
@@ -17,7 +17,7 @@ It’s perfect for securing APIs, login pages, contact forms, and public routes 
 - 🧾 TypeScript support with full typings
 - 🧰 Zero dependencies – lightweight & fast
 
----
+<!-- --- -->
 
 ## 📦 Installation
 
@@ -25,7 +25,7 @@ It’s perfect for securing APIs, login pages, contact forms, and public routes 
 npm install botnot
 ```
 
----
+<!-- --- -->
 
 ## ⚙️ Configuration Options
 
@@ -38,7 +38,7 @@ npm install botnot
 | `rateLimit`     | `{ windowMs, maxRequests }`  | Rate limiting configuration |
 | `log`           | `boolean`                    | Enable console logging (default: false) |
 
----
+<!-- --- -->
 
 ## 🚀 Usage Examples
 
@@ -66,7 +66,7 @@ app.get('/', (req, res) => {
 app.listen(3000, () => console.log('Running on http://localhost:3000'));
 ```
 
----
+<!-- --- -->
 
 ### ✅ 2. Next.js API Route Example
 
@@ -98,7 +98,7 @@ const handler: NextApiHandler = async (req, res) => {
 export default withBotProtection(handler);
 ```
 
----
+<!-- --- -->
 
 ### ✅ 3. Raw Node.js HTTP Server Example
 
@@ -121,7 +121,7 @@ server.listen(3000, () => {
 });
 ```
 
----
+<!-- --- -->
 
 ## 🧩 Use Cases
 
@@ -130,13 +130,13 @@ server.listen(3000, () => {
 - 📄 Protect form submissions from bots and spam
 - ⚡ Reduce server load by dropping suspicious traffic early
 
----
+<!-- --- -->
 
 ## 📝 License
 
 MIT © [Vishal Kumar Sharma](https://github.com/Vii-shal)
 
----
+<!-- --- -->
 
 ## 🤝 Contributing
 
@@ -145,4 +145,4 @@ We welcome contributions, ideas, and feedback!
 - 📥 Submit issues or bug reports in [GitHub Issues](https://github.com/Vii-shal/botnot/issues)
 - 🧑‍💻 Fork, build, and open a PR with improvements
 
----
+<!-- --- -->
